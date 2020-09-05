@@ -295,3 +295,9 @@ footer a {
         text-align: left;
     }
 }
+
+.attribution {
+    background: #143d59;
+    color: #f4b41a;
+    font-size: 16px;
+}
