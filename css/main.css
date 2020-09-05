@@ -209,12 +209,15 @@ footer a {
 .socials {
     display: flex;
     justify-content: center;
-    gap: 1rem;
 }
 
 .social-icon {
     font-size: 1.4375rem;
     transition: transform 250ms ease-in-out, color 250ms ease-in-out;
+}
+
+.social-icon:not(:last-child) {
+    margin-right: 1.5rem;
 }
 .social-icon:hover,
 .social-icon:focus {
